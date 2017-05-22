@@ -1,45 +1,24 @@
-############ Nova Core ############
 
-nova:core # do not remove!
+# see http://docs.vulcanjs.org/packages
 
-############ Optional Packages ############
+vulcan:core
 
-nova:settings
-nova:users
-nova:posts
-nova:comments
-nova:newsletter
-nova:search
-nova:notifications
-nova:getting-started
-nova:categories
-nova:voting
-nova:forms
-nova:embedly
-nova:api
-nova:email
-nova:rss
-# nova:subscribe
-# nova:cloudinary
+############ Language Packages ############
 
-############ Customizable Packages ############
+vulcan:i18n-en-us
 
-nova:base-components
-nova:base-styles
-nova:base-routes
-nova:email-templates
-nova:i18n-en-us
+############ Accounts Packages ############
 
-accounts-password@1.3.3
+accounts-password
 # accounts-twitter
 # accounts-facebook
 
-############ Debug Packages ############
-
-nova:debug
-# nova:kadira
-
 ############ Your Packages ############
 
+ custom-vanila
 # my-custom-package
-telescope-vanila-dark
+#telescope-vanila-dark
+#example-movies
+# example-instagram
+# example-forum
+# example-customization
